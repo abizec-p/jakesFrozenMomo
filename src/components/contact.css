@@ -1,0 +1,73 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f2e9;
+}
+
+.left-contact {
+  margin-top: 10vh;
+  border-right: 3px solid white;
+  width: 40vw;
+  height: 80vh;
+}
+.left-contact h1 {
+  font-size: 50px;
+  font-family: "libre baskerville", serif;
+}
+.left-contact li {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+}
+.left-contact p {
+  margin-bottom: 20px;
+  width: 30vw;
+}
+.contact-detail {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 30vw;
+}
+.icons {
+  padding: 10px 10px;
+  padding-top: 10px;
+}
+span {
+  margin-top: 5px;
+}
+.social h2{
+    margin-left: 10px;
+    font-family: "libre baskerville", serif;
+    margin-left: 20px;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social-icons span:hover{
+    color: red;
+    filter: drop-shadow(2px 2px 10px red);
+}
+.social-icons span{
+    padding: 10px 30px;
+}
+.right-contact {
+  margin-top: 20px;
+  width: 40vw;
+  margin-left: 5vw;
+}
+.letter{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 40px;
+    width: 30vw;
+
+}
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 30px;
+}

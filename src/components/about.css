@@ -1,0 +1,28 @@
+.about-us{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #F7F2E9;
+    height: 60vh;
+    padding: 10vh 10vw;
+}
+.left-about h1{
+    font-family: "libre baskerville", serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.left-about{
+
+    width: 40vw;
+
+}
+.left-about p{
+    text-align: justify;
+}
+
+.right-about img{
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 50vh;
+}

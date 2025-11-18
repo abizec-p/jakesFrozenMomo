@@ -1,0 +1,232 @@
+.hero{
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+ 
+    
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../assets/img/hero-bg.png");
+           background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    z-index: -1;
+}
+.main {
+    margin-top: 150px;
+margin-right: 100px;
+    position: relative;
+    color: white;
+    z-index: 1;
+          font-family: "Libre Baskerville", serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        
+
+}
+
+.main h1{
+          font-family: "Libre Baskerville", serif;
+          font-size: 60px;
+          color: #F7F2E9;
+
+}
+.main button{
+    margin-top: 50px;
+    padding: 15px 30px;
+    background-color: #FF7A00;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.info-section{
+    height: 90vh;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10vh 10vw;
+
+}
+.info-section h1{
+    font-family: "libre baskerville", serif;
+    margin-bottom: 20px;
+}
+.info-section img{
+    height: 40vh;
+    width: 40vh;
+    transition: 0.3s ease;
+    object-fit: cover;
+
+
+}
+.info-container img:hover{
+    scale: 1.1;
+}
+.info-container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10vh ;
+}
+
+.info-container div{
+    
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.info-container h2{
+        color: #1e1e1e;
+font-family: "libre baskerville", serif;
+padding: 20px 0;
+z-index: 100;
+
+
+}
+
+
+
+
+
+.prices{
+    margin-top: 50px;
+    color: #1e1e1e;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.prices h1{
+              font-family: "Libre Baskerville", serif;
+
+    color: #2e2e2e;
+
+
+    
+}
+.prices-main{
+    display: flex;
+        margin-top: 40px;
+        justify-content: space-around;
+        align-items: center;
+
+}
+.prices-img{
+    background-color: black;
+    margin-left: 10vw;
+    height: 80vh;
+    width: 30vw;
+    background-image: url(../assets/img/dumpling.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.prices-list{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+
+}
+
+.list-name{
+    text-align: left;
+    margin-right: 100px;
+}
+
+.list-name li{
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list-name p{
+    font-size: 18px;
+}
+.list-title{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.list-title li{
+    font-size: 18px;
+}
+
+.list-container{
+    margin-bottom: 30px;
+}
+.list-container p{
+    font-size: 16px;
+    color: #4c4c4c;
+    
+}
+
+.prices-chutney-img{
+      background-color: black;
+    margin-right: 10vw;
+    height: 80vh;
+    width: 30vw;
+    background-image: url(../assets/img/achar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.prices-main-achar{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.prices-main-achar .list-name{
+    margin-left: 12vw;
+    margin-right: 0;
+}
+
+
+.last-call-to-action{
+    height: 110vh;
+    background-color: #F7F2E9;
+    margin-top: 30px;
+}
+
+.last-image img{
+    height: 50vh;
+    width: 80vw;
+    border-radius: 20px;
+    margin: 10vh 10vw;
+    object-fit: cover;
+
+
+
+
+}
+.last-call-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-call-text h1{
+    text-align: center;
+              font-family: "Libre Baskerville", serif;
+              font-size: 40px;
+}
+
+.last-call-text p{
+margin-top: 20px;
+    width: 60vw;
+    text-align: center;
+}

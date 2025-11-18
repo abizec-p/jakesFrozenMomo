@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 408.85">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: OpenSansRoman-Bold, 'Open Sans';
+        font-size: 337.96px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f79051;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #1e1e1e;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #f79051;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-family: Baskerville, Baskerville;
+        font-size: 63.37px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="1000" height="408.85"/>
+  <g>
+    <text class="cls-1" transform="translate(33.49 317.62)"><tspan x="0" y="0">Jake’s</tspan></text>
+    <g>
+      <path class="cls-4" d="m236.62,67.66c-2.04.64-8.32,2.82-14.85.41-7.97-2.93-17.03-12.93-14.67-24.88,1.83-9.26,9.75-15.86,18.34-17.18,9.36-1.45,16.35,3.86,17.63,4.86.61-.79,14.06-17.49,35.03-14.81,15.13,1.93,27.82,13.13,32,28.32,29.22-1.18,30.7,15.28,29.44,24.18-1.27,8.97-7.29,22.13-35.45,14.87-36.35-18.56-56.04-19.34-67.45-15.77Z"/>
+      <path class="cls-4" d="m234.55,68.28l-.27,31.55s35.09-5.77,58.3,10.2l11.5-26.59"/>
+      <path class="cls-2" d="m262.45,88.96c9.35.54,19.07,3.24,26.45,9.2-8.28-4.5-17.34-6.99-26.45-9.2h0Z"/>
+      <path class="cls-2" d="m239.78,51.8c12.29-.31,24.53,1.08,36.48,4.1,11.76,3.71,22.72,9.23,33.35,15.36-9.93-4.1-23.78-10.42-33.91-13.44-11.73-3.04-23.85-4.76-35.93-6.02h0Z"/>
+    </g>
+    <text class="cls-5" transform="translate(522.95 393.49)"><tspan x="0" y="0">Frozen Mo:Mo</tspan></text>
+  </g>
+</svg>

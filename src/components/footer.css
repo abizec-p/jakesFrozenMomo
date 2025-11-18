@@ -1,0 +1,54 @@
+.footer{
+    background-color: #1e1e1e;
+    height: 40vh;
+    color: whitesmoke;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left img{
+    height: 60px;
+    padding: 20px 0px;
+}
+.footer-left h1{
+    font-family: "libre baskerville", serif;
+    font-size: 50px;
+    
+}
+.footer-left{
+    height: 30vh;
+    width: 25vw;
+        border-right: 1px solid white;
+
+}
+.footer-left p{
+    margin-top: 10px;
+}
+.footer-right{
+    margin-left: 100px;
+    border-right: 1px solid white;
+    padding-right: 100px;
+    height: 30vh;
+
+}
+.footer-right p{
+    margin-top: 10px;
+}
+
+.footer-links{
+    margin-left: 100px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+
+}
