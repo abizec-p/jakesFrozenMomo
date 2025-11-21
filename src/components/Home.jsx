@@ -9,9 +9,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="main">
-          <h1>
-            What's goin on? <br />
-            Craving Mo:Mo?
+          <h1>Everyday is a mo:mo day!
           </h1>
           <div className="call-to-action">
             <button className="order-now">Order Yours</button>
@@ -167,7 +165,7 @@ export default function Home() {
           <img src={lastImage} alt="momo steamed" />
         </div>
         <div className="last-call-text">
-          <h1>Our Promise to our customer</h1>
+          <h1>Promise to our customer</h1>
           <p>
             <i>
               When Jake’s Frozen Mo:Mo started, our vision was simple: bring the

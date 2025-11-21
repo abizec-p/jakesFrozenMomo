@@ -4,7 +4,8 @@
     justify-content: space-around;
     background-color: #F7F2E9;
     height: 60vh;
-    padding: 10vh 10vw;
+    padding: 0 10vw;
+    padding-top: 10vh;
 }
 .left-about h1{
     font-family: "libre baskerville", serif;
@@ -25,4 +26,66 @@
     border-radius: 10px;
     margin-top: 40px;
     height: 50vh;
+}
+.second-section{
+    background-color: #F7F2E9;
+    padding-bottom: 10vh;
+}
+
+.second-text{
+    margin: 5vh 14vw;
+
+}
+.second-text p{
+    text-align: justify;
+}
+@media (max-width:999px) {
+    .about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #F7F2E9;
+    height: 100%;
+    padding: 0vh 0vw;
+    padding-bottom: 0vh;
+}
+.left-about h1{
+    font-family: "libre baskerville", serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 5vh;
+
+}
+
+.left-about{
+
+    width: 80vw;
+
+}
+.left-about p{
+    text-align: justify;
+}
+
+.right-about img{
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 80vw;
+    height: 30vh;
+    object-fit: cover;
+}
+.second-section{
+    background-color: #F7F2E9;
+    padding-bottom: 10vh;
+}
+
+.second-text{
+    margin: 5vh 14vw;
+
+}
+.second-text p{
+    text-align: justify;
+}
+    
 }
