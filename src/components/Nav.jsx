@@ -20,7 +20,7 @@ export default function Nav() {
             </Link>
           </div>
         </div>
-        <div className={isClicked? "nav-right":"nav-clicked"}>
+        <div className={isClicked? "nav-right":"nav-show"}>
           <Link to="/">Home</Link>
           <Link to="/prices">Prices</Link>
           <Link to="/about">About us</Link>

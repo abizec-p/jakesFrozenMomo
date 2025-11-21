@@ -39,8 +39,18 @@
 }
 
 @media (max-width:999px) {
+    .navigation-bar{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    transition: 0.3s ease;
+}
     .hamburger{
         display: block;
+        position: absolute;
+        top: 3vh;
+        right: 5vw;
     }
     
     .nav-right a{
@@ -56,12 +66,28 @@
 }
 
 .nav-show{
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    top: 12vh;
+    left: 0;
     display: flex;
-     margin: 0 10px;
+flex-direction: column;
+transition: 0.3s;
+
+}
+.nav-show a{
+    background-color: #e8e8e8;
+     margin: 10px 10px;
+     padding: 10px 10px;
+     border-radius: 10px;
+
     color: #1e1e1e;
     text-decoration: none;
     
     transition: 0.3s;
-    text-align: center;
 }
+
 }
