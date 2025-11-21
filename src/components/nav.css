@@ -23,3 +23,45 @@
     height: 50px;
 
 }
+
+
+/* mobile responsive*/
+
+.hamburger div{
+    width: 25px;
+    height: 3px;
+    background-color: #1e1e1e;
+    margin: 5px 0 ;
+    border-radius: 2px;
+}
+.hamburger{
+    display: none;
+}
+
+@media (max-width:999px) {
+    .hamburger{
+        display: block;
+    }
+    
+    .nav-right a{
+        display: none;
+    margin: 0 10px;
+    color: #1e1e1e;
+    text-decoration: none;
+    
+    transition: 0.3s;
+    text-align: center;
+
+    
+}
+
+.nav-show{
+    display: flex;
+     margin: 0 10px;
+    color: #1e1e1e;
+    text-decoration: none;
+    
+    transition: 0.3s;
+    text-align: center;
+}
+}
