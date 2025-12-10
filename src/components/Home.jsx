@@ -3,19 +3,112 @@ import lastImage from "../assets/img/momo-steam.jpg";
 import chickenmomo from "../assets/img/chickenmomo.JPG"
 import paneermomo from "../assets/img/dumpling.jpg"
 import jholachar from "../assets/img/jholmomo.jpg"
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
+import {CircleX} from "lucide-react";
+
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState("");
+  function handleOrderButton(){
+    setIsOpen(!isOpen);
+
+
+
+
+  }
+  function handleSubmit(){
+    setIsSubmitted(true);
+    setIsOpen(false)
+
+    setTimeout(()=>{
+      setIsSubmitted(false);
+    },3000);
+   
+    console.log("clicked");
+
+  }
   return (
     <>
       <section className="hero">
+        <div  className={isSubmitted ? "submitted-clicked" : "submitted"}>
+          Order submitted!
+        </div>
         <div className="main">
           <h1>Everyday is a mo:mo day!
           </h1>
           <div className="call-to-action">
-            <button className="order-now">Order Yours</button>
+            <button onClick={handleOrderButton} className="order-now">Order Yours</button>
           </div>
         </div>
       </section>
+      {isOpen &&
+      <AnimatePresence>
+      <motion.div 
+      initial={{ opacity:0}}
+      animate={{ opacity:1}}
+      exit={{ opacity:0}}
+      transition={{duration:0.3}}
+      onClick={()=>setIsOpen(false)}
+      className="modal-background"
+      >
+        <motion.div
+        initial={{ opacity:0}}
+      animate={{scale:1, opacity:1}}
+      exit={{scale:0.7, opacity:0}}
+      transition={{duration:0.3}}
+      onClick={(e)=>e.stopPropagation()}
+
+      className="modal">
+        <div className="order-container">
+                <div onClick={()=> setIsOpen(false)} className="close-btn"><div><CircleX/></div></div>
+
+          <div className="top-section">
+            <p className="order-form-detail">+1(437)665-1393 | jakesfrozenmomo@gmail.com</p> 
+          </div>
+          <div className="order-section">
+            <h2>Place an order</h2>
+            <p className="order-description">Please place an order here and we will send a order confirmation as soon as possible.</p> 
+            <div className="order-form">
+              <input type="text" placeholder="Email or Phone number" />
+              <input type="text" placeholder="Name" />
+              <div className="select-filling-date">
+                <div>
+                <p>Choose Filling</p>
+              <select >
+                <option value="">Chicken</option>
+                <option value="">Pork</option>
+                <option value="">Paneer</option>
+                <option value="">Veggie</option>
+                <option value="">Soya chunks</option>
+                <option value="">Beef</option>
+                <option value="">Goat</option>
+                <option value="">Fish</option>
+              </select>
+              </div>
+              <div>
+               <p>For when? :</p>
+              <input type="date" placeholder="When do you want it for?" />
+              </div>
+              </div>
+              <textarea type="text" placeholder="Any Notes, Instruction, alergies" ></textarea>
+             
+              <button onClick={handleSubmit}>Submit</button>
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+        </motion.div>
+
+
+      </motion.div>
+      </AnimatePresence>
+      }
       <section className="info-section">
         <h1>Our most loved products</h1>
         <p>
@@ -34,7 +127,7 @@ export default function Home() {
         <div>
           <img src={jholachar} alt="jholachar" />
 
-          <h2>Jake's Jhol momo</h2>
+          <h2>Jake's Jhol achar</h2>
         </div>
         </div>
       </section>

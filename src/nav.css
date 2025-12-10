@@ -5,6 +5,11 @@
     margin: 10px 150px;
 }
 .nav-right .menu-div a{
+    
+
+    
+}
+.menu-item{
     margin: 0 10px;
     color: #1e1e1e;
     text-decoration: none;
@@ -12,9 +17,8 @@
     transition: 0.3s;
     text-align: center;
 
-    
 }
-.nav-right a:hover{
+.menu-item:hover{
     font-weight: bold;
 
 }
@@ -50,6 +54,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 10px 10px;
+    
 }
     .hamburger{
         display: block;

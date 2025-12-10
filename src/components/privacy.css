@@ -1,0 +1,9 @@
+.privacy-wrapper{
+    padding: 10vh 20vw;
+}
+h1,h2{
+    padding: 10px 0;
+}
+.privacy-wrapper li,.privacy-wrapper p{
+    padding-left: 20px;
+}

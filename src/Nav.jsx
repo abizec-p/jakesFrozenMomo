@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/light-jake.svg";
+import logo from "./assets/img/light-jake.svg";
 import {CircleX} from "lucide-react";
 
 import "./nav.css";
@@ -29,10 +29,10 @@ export default function Nav() {
         <div className={isOpen? "nav-show":"nav-right"}>
           <div className="menu-div">
             <img src={logo} alt="logo" />
-          <Link onClick={HandleButton} to="/">Home</Link>
-          <Link onClick={HandleButton} to="/prices">Prices</Link>
-          <Link onClick={HandleButton} to="/about">About us</Link>
-          <Link onClick={HandleButton} to="/contact">Contact Us</Link>
+          <Link className="menu-item" onClick={HandleButton} to="/">Home</Link>
+          <Link className="menu-item" onClick={HandleButton} to="/prices">Prices</Link>
+          <Link className="menu-item" onClick={HandleButton} to="/about">About us</Link>
+          <Link className="menu-item" onClick={HandleButton} to="/contact">Contact Us</Link>
           <button className="menu-close-button" onClick={()=>setIsOpen(false)}>
 <CircleX size={40} />          </button>
           </div>

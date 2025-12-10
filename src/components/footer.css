@@ -17,7 +17,6 @@
     
 }
 .footer-left{
-    height: 30vh;
     width: 25vw;
         border-right: 1px solid white;
 
@@ -29,11 +28,13 @@
     margin-left: 100px;
     border-right: 1px solid white;
     padding-right: 100px;
-    height: 30vh;
+
 
 }
+
 .footer-right p{
     margin-top: 10px;
+    margin-left: 0;
 }
 
 .footer-links{
@@ -56,47 +57,56 @@
 @media (max-width:999px) {
     .footer{
     background-color: #1e1e1e;
-    height: 40vh;
+    height: auto;
     color: whitesmoke;
-    padding-top: 90px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-around;
+    padding: 10vh 10vw;
 }
 
+
+
 .footer-left img{
-    height: 30px;
+    height: 50px;
     padding: 20px 0px;
 }
 .footer-left h1{
     font-family: "libre baskerville", serif;
-    font-size: 20px;
+    font-size: 40px;
+
     
 }
 .footer-left{
-    height: 30vh;
-    width: 50vw;
-        border-right: 1px solid white;
+    width: 100vw;
+        border-right: 0px;
+        padding: 0px 0;
 
 }
 .footer-left p{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .footer-right{
-    margin-left: 10px;
-    border-right: 1px solid white;
-    padding-right: 10px;
-    height: 30vh;
+    margin-left: 0px;
+    border-right: 0px solid white;
+    padding-right: 0px;
+    margin-bottom: 20px;
 
+}
+.footer-right h1{
+    font-size: 20px;
 }
 .footer-right p{
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .footer-links{
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 .footer-nav{
     display: flex;
